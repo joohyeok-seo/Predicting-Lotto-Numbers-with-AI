@@ -69,4 +69,19 @@ The workflow consists of:
   3. **Hybrid Model Performance**:
      - The CNN + LSTM model demonstrated the highest potential by correctly identifying one number (21) in the 1149th draw.
 
+---
+
+## Lessons Learned
+  1. **Strengths and Limitations of AI**:
+     - AI excels at recognizing patterns in structured data but faces challenges with purely random events.
+       
+  2. **Hybrid Models**:
+     - Combining CNN and LSTM enhanced prediction capability, demonstrating the value of integrating spatial and temporal features.
+       
+  3. **Real-World Applications**:
+     - While not suitable for lottery prediction, these techniques can be applied to problems like financial forecasting or inventory management.
+
+
+
+
 
