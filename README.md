@@ -8,9 +8,9 @@ This project analyzes and predicts gas prices across Canada using MySQL for data
 The workflow consists of:
   1. **Data Collection**:
      - Historical lottery data is collected via an API and saved into a CSV format.
-  3. **Data Preprocessin**:
+  2. **Data Preprocessin**:
      - Data is cleaned and prepared for analysis, with normalization and dimensionality reduction applied where necessary.
-  5. **Model Development**:
+  3. **Model Development**:
      - Machine learning algorithms (Random Forest, XGBoost, KNN, SVM) and their combinations with PCA.
      - Deep learning models (FCNN and LSTM).
      - Hybrid deep learning approaches (CNN + LSTM).
