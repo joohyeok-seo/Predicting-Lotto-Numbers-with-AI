@@ -3,6 +3,24 @@ This project applies various machine learning and deep learning techniques to pr
 
 ---
 
+## Introduction
+
+This project predicts lotto numbers using machine learning techniques, including Random Forest, XGBoost, and Neural Networks. 
+
+In addition to prediction, we have included **statistical analysis** to compare historical data and validate the occurrence patterns of winning numbers using Chi-square tests and Poisson probabilities.
+
+---
+
+## Goals
+
+1. Develop machine learning models to predict lotto numbers based on historical data.
+2. Perform **statistical analysis** to:
+   - Identify patterns in historical lotto data.
+   - Compare winning numbers with historical distributions using Chi-square tests.
+   - Assess the likelihood of specific numbers appearing using Poisson probabilities.
+
+---
+
 ## Project Overview
 This project analyzes and predicts gas prices across Canada using MySQL for data storage and Python for data processing.
 The workflow consists of:
@@ -99,6 +117,40 @@ The workflow consists of:
 
 ---
 
+## Statistical Analysis
+
+To enhance the predictive analysis, this project includes statistical validation of lotto numbers using the following methods:
+
+### 1. Chi-square Test
+We performed a Chi-square test to compare the observed frequencies of lotto numbers in historical data with the 1149th winning numbers.
+
+- **Chi-square Statistic**: 40.19
+- **p-value**: 0.6357
+- **Interpretation**: The p-value indicates no statistically significant difference between the historical distribution and the new numbers.
+
+### 2. Poisson Probabilities
+The probability of each winning number appearing was calculated using the Poisson distribution, based on the mean frequency of historical data.
+
+#### Results:
+| Number | Probability |
+|--------|-------------|
+| 8      | 0.0000000000 |
+| 15     | 0.0000000000 |
+| 19     | 0.0000000000 |
+| 21     | 0.0000000000 |
+| 32     | 0.0000000000 |
+| 36     | 0.0000000000 |
+
+**Interpretation**:
+The extremely low probabilities indicate that the 1149th winning numbers are rare in the context of historical data, which is expected due to the randomness of lotto results.
+
+### Visualization
+
+The bar graph below compares the frequency of historical lotto numbers (gray) with the 1149th winning numbers (red):
+
+![Lotto Analysis Graph](lotto_analysis_final.png)
+
+---
 ## Future Directions
   1. Experiment with additional ensemble techniques for improved accuracy.
        
