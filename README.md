@@ -148,7 +148,7 @@ The extremely low probabilities indicate that the 1149th winning numbers are rar
 
 The bar graph below compares the frequency of historical lotto numbers (gray) with the 1149th winning numbers (red):
 
-![Lotto Analysis Graph](lotto_analysis_final.png)
+![Lotto Analysis Graph](images/lotto_analysis_final.png)
 
 ---
 ## Future Directions
