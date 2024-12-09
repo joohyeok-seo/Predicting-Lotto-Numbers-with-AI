@@ -60,10 +60,13 @@ The workflow consists of:
 ---
 
 ## Key Results
-1. Pattern Recognition:
-  - Models identified trends in historical data but struggled to predict exact outcomes due to randomness.
-2. PCA + Random Forest:
-  - Highlighted key dataset components, improving model efficiency and interpretability.
-3. Hybrid Model Performance:
-  - The CNN + LSTM model demonstrated the highest potential by correctly identifying one number (21) in the 1149th draw.
+  1. **Pattern Recognition**:
+     - Models identified trends in historical data but struggled to predict exact outcomes due to randomness.
+       
+  2. **PCA + Random Forest**:
+     - Highlighted key dataset components, improving model efficiency and interpretability.
+       
+  3. **Hybrid Model Performance**:
+     - The CNN + LSTM model demonstrated the highest potential by correctly identifying one number (21) in the 1149th draw.
+
 
