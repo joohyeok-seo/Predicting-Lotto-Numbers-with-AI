@@ -81,7 +81,32 @@ The workflow consists of:
   3. **Real-World Applications**:
      - While not suitable for lottery prediction, these techniques can be applied to problems like financial forecasting or inventory management.
 
+---
 
+## How to Run
+  1. **Clone the repository**:
+     - git clone https://github.com/joohyeok-seo/Predicting-Lotto-Numbers-with-AI.git
+       
+  2. **Install dependencies**:
+     - pip install -r requirements.txt
+       
+  3. **Run the notebooks in sequence**:
+     - lotto_api_to_csv.ipynb: Collect historical lottery data via API.
+     - lotto_data_preprocessing.ipynb: Clean and preprocess data, apply PCA.
+     - lotto_machine_learning.ipynb: Implement Random Forest, XGBoost, KNN, SVM, and PCA combinations.
+     - lotto_deep_learning.ipynb: Build FCNN and LSTM models.
+     - lotto_hybrid_model.ipynb: Develop and evaluate CNN + LSTM hybrid models.
 
+---
 
+## Future Directions
+  1. Experiment with additional ensemble techniques for improved accuracy.
+       
+  2. Apply transfer learning for better feature extraction in hybrid models.
+       
+  3. Test the methodology on structured datasets with less inherent randomness.
 
+---
+
+## Acknowledgments
+This project highlights the potential of AI in analyzing complex datasets, offering insights into both its capabilities and limitations when applied to unconventional problems like lottery number prediction.
