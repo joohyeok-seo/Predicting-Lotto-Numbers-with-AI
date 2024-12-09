@@ -15,6 +15,45 @@ The workflow consists of:
      - Deep learning models (FCNN and LSTM).
      - Hybrid deep learning approaches (CNN + LSTM).
 
+---
+
+Algorithms Used
+Machine Learning
+Random Forest:
+
+A robust ensemble method applied to classify and predict lottery numbers.
+Feature importance analysis was performed to understand predictors' significance.
+XGBoost:
+
+A gradient boosting algorithm optimized for high performance.
+Showed significant potential in handling complex data patterns.
+K-Nearest Neighbors (KNN):
+
+Applied to find patterns based on the proximity of historical data points.
+Evaluated with different values of K for optimization.
+Support Vector Machines (SVM):
+
+Used to identify the hyperplane that separates lottery patterns effectively.
+Kernel-based methods were tested to explore non-linear patterns.
+Combined PCA + Random Forest:
+
+Principal Component Analysis (PCA) was used for dimensionality reduction before applying Random Forest.
+Improved computational efficiency and reduced overfitting while maintaining performance.
+Deep Learning
+Fully Connected Neural Networks (FCNN):
+
+A feedforward architecture designed to model non-linear relationships in the data.
+Features ReLU activation in hidden layers and Softmax in the output layer.
+Long Short-Term Memory (LSTM):
+
+A specialized RNN for capturing temporal dependencies in sequential lottery data.
+Helped analyze patterns over time.
+Hybrid Model
+CNN + LSTM:
+Combined Convolutional Neural Networks (CNN) for spatial pattern extraction with LSTM for temporal sequence modeling.
+Demonstrated the highest prediction potential among all tested models.
+
+
 Data Preprocessing:
 Data is cleaned and prepared for analysis, with normalization and dimensionality reduction applied where necessary.
 Model Development:
