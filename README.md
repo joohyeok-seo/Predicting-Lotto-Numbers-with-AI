@@ -3,7 +3,7 @@ This project applies various machine learning and deep learning techniques to pr
 
 ---
 
-# Project Overview
+## Project Overview
 This project analyzes and predicts gas prices across Canada using MySQL for data storage and Python for data processing.
 The workflow consists of:
   1. **Data Collection**:
